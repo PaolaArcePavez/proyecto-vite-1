@@ -24,16 +24,15 @@ const Sidebar = () => {
             src="https://img.freepik.com/foto-gratis/disparo-vertical-carretera-medio-edificios-japon_181624-46775.jpg"
             className="w-20 h-20 object-cover rounded-full ring-2 ring-primary-300"
           />
-          <h1 className="text-l text-white font-bold">Andres</h1>
+          <h1 className="text-xl text-white font-bold">Andres</h1>
           <p className="bg-primary-100 py-2 px-4 rounded-full justify-center text-white">
-            boton
+            Usuario
           </p>
         </div>
         {/*NAV*/}
-        <div className="bg-primary-300 p-8 rounded-tr-[100px] h-[70vh] flex flex-col justify-between gap-8 ">
-          {" "}
-          {/*contenia overflow-y-scroll para un scroll*/}
-          <nav className="flex flex-col gap-6">
+        <div className="bg-primary-300 p-8 rounded-tr-[100px] h-[70vh]  flex flex-col justify-between gap-8 ">
+       
+         <nav className="flex flex-col gap-8">
             <a
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
@@ -59,8 +58,8 @@ const Sidebar = () => {
               <RiShoppingCart2Line /> Compra
             </a>
           </nav>
-          <div className="bg-primary-900/50 text-white p-4 rounded-2xl">
-            <p className="text-gray-400 text-white">Lo que sea</p>
+          <div className="bg-primary-900/50 text-white p-4 rounded-xl">
+            <p className="text-gray-600">Lo que sea</p>
             <a href="#">Contacto</a>
           </div>
         </div>
